@@ -21,7 +21,7 @@ export class Age {
     return ageMars;
   }
   jupiterAge() {
-    const ageJupiter = this.earthAge() / 1.88;
+    const ageJupiter = this.earthAge() / 11.86;
     return ageJupiter;
   }
 
