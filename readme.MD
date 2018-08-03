@@ -12,27 +12,59 @@ This web app allows users to enter a person's birthday and calculate their curre
 
 - 1.) Allow users to enter a date (birthday).
 
-- 2.) Based off the date (birthday) entered, users can view the age of someone born on that date in Mercury years. The calculated age will be based on the solar calendar of Mercy.
+- 2.) Based off the date (birthday) entered, users can view the age of someone born on that date in Earth years. The calculated age will be based on the solar calendar of Earth.
+    - Example input: 30;
+    - Example output: 30;
+
+- 3.) Based off the date (birthday) entered, users can view the age of someone born on that date in Mercury years. The calculated age will be based on the solar calendar of Mercy.
     - Example input: TBA;
     - Example output: TBA;
 
-- 3.) Based off the date (birthday) entered, users can view the age of someone born on that date in Venus years. The calculated age will be based on the solar calendar of Venus.
+- 4.) Based off the date (birthday) entered, users can view the age of someone born on that date in Venus years. The calculated age will be based on the solar calendar of Venus.
     - Example input: TBA;
     - Example output: TBA;
 
-- 4.) Based off the date (birthday) entered, users can view the age of someone born on that date in Mars years. The calculated age will be based on the solar calendar of Mars.
+- 5.) Based off the date (birthday) entered, users can view the age of someone born on that date in Mars years. The calculated age will be based on the solar calendar of Mars.
     - Example input: TBA;
     - Example output: TBA;
 
-- 5.) Based off the date (birthday) entered, users can view the age of someone born on that date in Jupiter years. The calculated age will be based on the solar calendar of Jupiter.
+- 6.) Based off the date (birthday) entered, users can view the age of someone born on that date in Jupiter years. The calculated age will be based on the solar calendar of Jupiter.
     - Example input: TBA;
     - Example output: TBA;
+///
+- 7.) Based off the date (birthday) entered, users can view how many Earth years a person has left to live based on the the live expectancy of 75 Earth years. The calculated age will be based on the solar calendar of Earth.
+
+        - Example input: TBA;
+        - Example output: TBA;
+
+- 8.) Based off the date (birthday) entered, users can view how many Mercury years a person has left to live based on the the live expectancy of 75 Earth years. The calculated age will be based on the solar calendar of Mercury.
+
+        - Example input: TBA;
+        - Example output: TBA;
+
+- 9.) Based off the date (birthday) entered, users can view how many Venus years a person has left to live based on the the live expectancy of 75 Earth years. The calculated age will be based on the solar calendar of Venus.
+
+        - Example input: TBA;
+        - Example output: TBA;
+
+- 10.) Based off the date (birthday) entered, users can view how many Mars years a person has left to live based on the the live expectancy of 75 Earth years. The calculated age will be based on the solar calendar of Mars.
+
+        - Example input: TBA;
+        - Example output: TBA;
+
+- 11.) Based off the date (birthday) entered, users can view how many Jupiter years a person has left to live based on the the live expectancy of 75 Earth years. The calculated age will be based on the solar calendar of Jupiter.
+
+        - Example input: TBA;
+        - Example output: TBA;
+
 
 ## Setup/Installation Requirements
 
 * Clone this repository
 * Save to Desktop
-* See below for instructions for setting up the database
+* While in the root directory, enter into the terminal "npm install"
+* After the installation is complete, enter into the terminal "npm run build"
+* After the build is complete, open the index.html in the dist folder 
 
 ## Technologies Used
 

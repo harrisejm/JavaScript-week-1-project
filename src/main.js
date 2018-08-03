@@ -10,10 +10,14 @@ import './styles.css';
 let birthday = new Date("Oct 28, 1987 00:00:00");
 
 const newSolarAge = new Age(birthday);
+document.getElementById("test").innerHTML = "life expectancy 75 (Earth Years)"
+document.getElementById("test1").innerHTML = "Earth: Age " + newSolarAge.earthAge() + "</br>" + newSolarAge.expectedEarth() + " Earth years to live";
 
-document.getElementById("test1").innerHTML = "Earth: Age " + newSolarAge.earthAge() + "</br>" + " - " + newSolarAge.expectedEarthAge() + " years to live (life expectancy 75)";
-document.getElementById("test2").innerHTML = "Mercury: " + newSolarAge.mercuryAge();
-document.getElementById("test3").innerHTML = "Venus: " + newSolarAge.venusAge();
-document.getElementById("test4").innerHTML = "Mars: " + newSolarAge.marsAge();
-document.getElementById("test5").innerHTML = "Jupiter: " + newSolarAge.jupiterAge();
+document.getElementById("test2").innerHTML = "Mercury: Age " + newSolarAge.mercuryAge() + "</br>" + newSolarAge.expectedMercury() + " Mercury years to live";
+
+document.getElementById("test3").innerHTML = "Venus: Age " + newSolarAge.venusAge() + "</br>" + newSolarAge.expectedVenus() + " Venus years to live";
+
+document.getElementById("test4").innerHTML = "Mars: Age " + newSolarAge.marsAge() + "</br>" + newSolarAge.expectedMars() + " Mars years to live";
+
+document.getElementById("test5").innerHTML = "Jupiter: Age " + newSolarAge.jupiterAge() + "</br>" + newSolarAge.expectedJupiter() + " Jupiter years to live";
 //document.getElementById("test6").innerHTML = newSolarAge.expectedEarthAge()
