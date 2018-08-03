@@ -12,6 +12,10 @@ export class Age {
     const ageMercury = this.earthAge() / .24;
     return ageMercury;
   }
+  venusAge() {
+    const ageVenus = this.earthAge() / .62;
+    return ageVenus;
+  }
 
 }
 }
