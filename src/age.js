@@ -1,11 +1,10 @@
 export class Age {
-  constructor(age, currentDate) {
-    this.age = age;
-    this.currentDate = currentDate;
-
+  constructor(birthday) {
+    this.birthday = birthday;
   }
   earthAge() {
-    const ageEarth = this.currentDate - this.age;
+    const currentDate = new Date();
+    const ageEarth = Math.floor((currentDate.getTime() - this.birthday) / 31556900000);
     return ageEarth;
   }
   mercuryAge() {
