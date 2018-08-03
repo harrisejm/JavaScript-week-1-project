@@ -27,5 +27,25 @@ describe('age', function() {
   it('should test if age in correctly calculated in Jupiter years', function() {
   expect(newSolarAge.jupiterAge()).toEqual(355);
   });
+////
+  it('should test if life expectancy (of 75 Earth years) in correctly calculated in Earth years', function() {
+  expect(newSolarAge.expectedEarth()).toEqual(45);
+  });
+
+  it('should test if life expectancy (of 75 Earth years) in correctly calculated in Mercury years', function() {
+  expect(newSolarAge.expectedMercury()).toEqual(187);
+  });
+
+  it('should test if life expectancy (of 75 Earth years) in correctly calculated in Venus years', function() {
+  expect(newSolarAge.expectedVenus()).toEqual(72);
+  });
+
+  it('should test if life expectancy (of 75 Earth years) in correctly calculated in Mars years', function() {
+  expect(newSolarAge.expectedMars()).toEqual(84);
+  });
+
+  it('should test if life expectancy (of 75 Earth years) in correctly calculated in Jupiter years', function() {
+  expect(newSolarAge.expectedJupiter()).toEqual(533);
+  });
 
 });
