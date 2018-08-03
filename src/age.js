@@ -7,6 +7,15 @@ export class Age {
     const ageEarth = Math.floor((currentDate.getTime() - this.birthday) / 31556900000);
     return ageEarth;
   }
+
+  expectedEarthAge(){
+    const ageExpectedLifeEarth = 75;
+    const remaining = ageExpectedLifeEarth - this.earthAge();
+    return remaining;
+  }
+
+
+
   mercuryAge() {
     const ageMercury = Math.floor(this.earthAge() / .24);
     return ageMercury;
